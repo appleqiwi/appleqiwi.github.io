@@ -3564,11 +3564,11 @@
         "90": {
             "license": {
                 "uid": 1017731916,
-                "valid": "17:57 20.06.2025",
+                "valid": "14:11 20.09.2026",
                 "issued": "14:11 19.09.2023",
-                "tariff": "Капибарович",
-                "role": "Гл. администратор",
-                "name": "sanyabond008",
+                "tariff": "Начинающий ловец",
+                "role": "Заместитель ГА",
+                "name": "ArzTune_Adm",
                 "freeze": false,
                 "reissue": {
                     "left": 5,
@@ -3578,8 +3578,8 @@
             "telegram": {
                 "username": "appleqiwi",
                 "chat_id": 892100867,
-                "userrole": "Капибарович",
-                "userlevel": 5,
+                "userrole": "Пользователь",
+                "userlevel": 0,
                 "action": false,
                 "buy": false
             },
@@ -3596,6 +3596,7 @@
                 "14:11:54-19.09.2023": "Пользователь активировал подписку на 1 дней."
             }
         }
+    },
     "channels": {
         "1": {
             "link": "https://t.me/arztune",

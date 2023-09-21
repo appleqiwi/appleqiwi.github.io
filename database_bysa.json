@@ -34,7 +34,7 @@
     "user": {
         "1": {
             "license": {
-                "uid": 1017731916,
+                "uid": 1916711783,
                 "valid": "17:57 20.06.2288",
                 "issued": "10:22 06.07.2023",
                 "tariff": "Капибарович",
@@ -46,8 +46,8 @@
                 }
             },
             "telegram": {
-                "username": "appleqiwi",
-                "chat_id": 892100867,
+                "username": "sanyabond008",
+                "chat_id": 1736139431,
                 "userrole": "Гл. администратор",
                 "userlevel": 5,
                 "action": false,
@@ -64,6 +64,41 @@
             }
         },
     },
+        "2": {
+        "license": {
+            "uid": 1017731916,
+            "valid": "17:57 20.06.2288",
+            "issued": "14:11 19.09.2023",
+            "tariff": "Капибарович",
+            "role": "Гл. администратор",
+            "name": "sanyabond008",
+            "freeze": false,
+            "reissue": {
+                "left": 5,
+                "reason": "Отсутствует"
+            }
+        },
+        "telegram": {
+            "username": "appleqiwi",
+            "chat_id": 892100867,
+            "userrole": "Пользователь",
+            "userlevel": 0,
+            "action": false,
+            "buy": false
+        },
+        "ban": {
+            "state": false,
+            "reason": "Отсутствует",
+            "date-issued": "00:00 01.01.1970",
+            "date-expiration": "00:00 01.01.1970",
+            "admin": "Отсутствует"
+        },
+        "log": {
+            "14:02:52-19.09.2023": "Пользователь appleqiwi зарегистрировался.",
+            "14:10:28-19.09.2023": "Заместитель ГА ArzTune_Adm сгенерировал код активации длительностью 1 дней, для Пользователь appleqiwi.",
+            "14:11:54-19.09.2023": "Пользователь активировал подписку на 1 дней."
+        }
+    }
     "channels": {
         "1": {
             "link": "https://t.me/arztune",

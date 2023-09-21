@@ -34,66 +34,6 @@
     "user": {
         "1": {
             "license": {
-                "uid": 1916711783,
-                "valid": "17:57 20.06.2288",
-                "issued": "10:22 06.07.2023",
-                "tariff": "Капибарович",
-                "role": "Гл. администратор",
-                "name": "sanyabond008",
-                "reissue": {
-                    "left": 3,
-                    "reason": "Переход на родину"
-                }
-            },
-            "telegram": {
-                "username": "sanyabond008",
-                "chat_id": 1736139431,
-                "userrole": "Гл. администратор",
-                "userlevel": 5,
-                "action": false,
-                "buy": false
-            },
-            "ban": {
-                "state": false,
-                "reason": "Отсутствует",
-                "date-issued": "00:00 01.01.1970",
-                "date-expiration": "00:00 01.01.1970",
-                "admin": "Отсутствует"
-            },
-            "log": {}
-        },
-        "2": {
-            "license": {
-                "uid": 764013351,
-                "valid": "20:24 08.06.2024",
-                "issued": "20:24 08.06.2023",
-                "tariff": "Тестировщик (ДЛ)",
-                "role": "Гл. администратор",
-                "name": "sanyabond008",
-                "reissue": {
-                    "left": 5,
-                    "reason": "Отсутствует"
-                }
-            },
-            "telegram": {
-                "username": "rallyfatalitysubaru",
-                "chat_id": 842756206,
-                "userrole": "Пользователь",
-                "userlevel": 0,
-                "action": false,
-                "buy": false
-            },
-            "ban": {
-                "state": false,
-                "reason": "Отсутствует",
-                "date-issued": "00:00 01.01.1970",
-                "date-expiration": "00:00 01.01.1970",
-                "admin": "Отсутствует"
-            },
-            "log": {}
-        },
-        "3": {
-            "license": {
                 "uid": 1017731916,
                 "valid": "14:11 20.09.2030",
                 "issued": "14:11 19.09.2023",

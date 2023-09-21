@@ -1,0 +1,153 @@
+{
+    "head": {
+        "token": "5844104350:AAEkYk8EOhJMCkYKKlytqummkJ_WH5rkmMU",
+        "specialCode": [
+            "Начинающий ловец",
+            "Среднячёк",
+            "Пацанчик",
+            "Настоящий пацан",
+            "Капибарович"
+        ],
+        "admin": {
+            "username": "appleqiwi",
+            "chat_id": 1736139431
+        },
+        "funpay": {
+            "rate": "2.36",
+            "update": "10:17 04.06.2023"
+        },
+        "script": {
+            "url": "https://github.com/KerreLProd/tuning-samp/raw/main/Tuning.luac",
+            "version": "2.34 release",
+            "date": "10.06.2023",
+            "new": {
+                "1": "Проект Rodina-RP теперь корректно поддерживается.",
+                "2": "Изменён способ ловли места на Arizona-RP.",
+                "3": "Исправлена ошибка вылета скрипта при отсутствии библиотек.",
+                "4": "Исправлена ошибка с вылетом игры (если проблема осталась переустановите MoonLoader).",
+                "5": "Подправлен GUI интерфейс и другие незначительные исправления.",
+                "6": "Исправлена проблема с долгой загрузкой игры.",
+                "7": "Немного изменена скорость ловли Legit+ и Legit."
+            }
+        }
+    },
+    "user": {
+        "1": {
+            "license": {
+                "uid": 1916711783,
+                "valid": "17:57 20.06.2288",
+                "issued": "10:22 06.07.2023",
+                "tariff": "Капибарович",
+                "role": "Гл. администратор",
+                "name": "sanyabond008",
+                "reissue": {
+                    "left": 3,
+                    "reason": "Переход на родину"
+                }
+            },
+            "telegram": {
+                "username": "sanyabond008",
+                "chat_id": 1736139431,
+                "userrole": "Гл. администратор",
+                "userlevel": 5,
+                "action": false,
+                "buy": false
+            },
+            "ban": {
+                "state": false,
+                "reason": "Отсутствует",
+                "date-issued": "00:00 01.01.1970",
+                "date-expiration": "00:00 01.01.1970",
+                "admin": "Отсутствует"
+            },
+            "log": {}
+        },
+        "2": {
+            "license": {
+                "uid": 764013351,
+                "valid": "20:24 08.06.2024",
+                "issued": "20:24 08.06.2023",
+                "tariff": "Тестировщик (ДЛ)",
+                "role": "Гл. администратор",
+                "name": "sanyabond008",
+                "reissue": {
+                    "left": 5,
+                    "reason": "Отсутствует"
+                }
+            },
+            "telegram": {
+                "username": "rallyfatalitysubaru",
+                "chat_id": 842756206,
+                "userrole": "Пользователь",
+                "userlevel": 0,
+                "action": false,
+                "buy": false
+            },
+            "ban": {
+                "state": false,
+                "reason": "Отсутствует",
+                "date-issued": "00:00 01.01.1970",
+                "date-expiration": "00:00 01.01.1970",
+                "admin": "Отсутствует"
+            },
+            "log": {}
+        },
+        "3": {
+            "license": {
+                "uid": 1017731916,
+                "valid": "14:11 20.09.2030",
+                "issued": "14:11 19.09.2023",
+                "tariff": "Капибарович",
+                "role": "Гл. администратор",
+                "name": "appleqiwi",
+                "freeze": false,
+                "reissue": {
+                    "left": 5,
+                    "reason": "Отсутствует"
+                }
+            },
+            "telegram": {
+                "username": "appleqiwi",
+                "chat_id": 892100867,
+                "userrole": "Гл. администратор",
+                "userlevel": 5,
+                "action": false,
+                "buy": false
+            },
+            "ban": {
+                "state": false,
+                "reason": "Отсутствует",
+                "date-issued": "00:00 01.01.1970",
+                "date-expiration": "00:00 01.01.1970",
+                "admin": "Отсутствует"
+            },
+            "log": {}
+        }
+    },
+    "channels": {
+        "1": {
+            "link": "https://t.me/+iEszImqUFTpkMmEy",
+            "name": "ARZ Tuning Catcher Crack",
+            "chat_id": -1001854079891
+        }
+    },
+    "codes": {
+        "0": {
+            "code": "Hacker (X1)",
+            "tariff": "Взлом подписки",
+            "days": 7,
+            "role": "Хакер",
+            "user": "anonimus"
+        },
+        "1": {
+            "code": "vneMrOhfDVY0",
+            "tariff": "Перенос(Опоздал)",
+            "days": 1,
+            "role": "Заместитель ГА",
+            "user": "S4D8L"
+        }
+    },
+    "tiktok": {
+        "appleqiwi": "None"
+    }
+}

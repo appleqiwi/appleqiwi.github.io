@@ -17,7 +17,7 @@
         // Получение данных пользователя
         const user = Telegram.WebApp.initDataUnsafe.user;
         if (user) {
-            document.getElementById('user-info').innerText = `Hello, ${user.first_name} ${user.last_name} (ID: ${user.id})`;
+            document.getElementById('user-info').innerText = user;
             // Здесь можно отправить данные на сервер
             fetch('http://13.50.236.165/user-data', {
                 method: 'POST',

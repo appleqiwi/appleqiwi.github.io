@@ -7,7 +7,7 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
-    <h1>Telegram WebApp4</h1>
+    <h1>Telegram WebApp5</h1>
     <p id="user-info">Loading...</p>
     <p id="user-values">Loading...</p>
     <p id="user-keys">Loading...</p>
@@ -34,7 +34,7 @@
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({"inid_data": Telegram.WebApp.initData}),
+                body: JSON.stringify({"init_data": JSON.stringify(Telegram.WebApp.initData)})
             });
         } else {
             document.getElementById('user-info').innerText = 'User data not available';

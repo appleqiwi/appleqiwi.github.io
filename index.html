@@ -7,7 +7,7 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
-    <h1>Telegram WebApp1</h1>
+    <h1>Telegram WebApp</h1>
     <p id="user-info">Loading...</p>
 
     <script>
@@ -18,11 +18,12 @@
         const user = Telegram.WebApp.initDataUnsafe.user;
         if (user) {
 
-            let data_string = "";
-            for (const [key, value] of Object.entries(user)) {
-                outputString += `${key}: ${value}\n`;
-            }
-            document.getElementById('user-info').innerText = data_string;
+            //let data_string = "";
+            //for (const [key, value] of Object.entries(user)) {
+            //    outputString += `${key}: ${value}\n`;
+            //}
+            
+            document.getElementById('user-info').innerText = user;
             // Здесь можно отправить данные на сервер
             fetch('http://13.50.236.165/user-data', {
                 method: 'POST',

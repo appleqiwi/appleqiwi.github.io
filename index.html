@@ -7,10 +7,11 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
-    <h1>Telegram WebApp5</h1>
+    <h1>Telegram WebApp6</h1>
     <p id="user-info">Loading...</p>
     <p id="user-values">Loading...</p>
     <p id="user-keys">Loading...</p>
+    <p id="resp">Loading...</p>
 
     <script>
         // Инициализация WebApp
@@ -36,6 +37,24 @@
                 },
                 body: JSON.stringify({"init_data": JSON.stringify(Telegram.WebApp.initData)})
             });
+            .then(response => {
+                if (!response.ok) {
+                    resp = "not_ok: " + response.statusText;
+                } else {
+                    resp = 'ok';
+                }
+                
+            })
+            .then(data => {
+                resp = "data: " + data;
+            })
+            .catch(error => {
+                resp = "error: " + error;
+            });
+            document.getElementById('resp').innerText = resp;
+
+
+
         } else {
             document.getElementById('user-info').innerText = 'User data not available';
         }

@@ -19,7 +19,7 @@
         if (user) {
             document.getElementById('user-info').innerText = `Hello, ${user.first_name} ${user.last_name} (ID: ${user.id})`;
             // Здесь можно отправить данные на сервер
-            fetch('/user-data', {
+            fetch('http://13.50.236.165/user-data', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

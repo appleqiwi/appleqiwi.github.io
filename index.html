@@ -9,6 +9,7 @@
 <body>
     <h1>Telegram WebApp1</h1>
     <p id="user-info">Loading...</p>
+    <p id="user-values">Loading...</p>
     <p id="user-keys">Loading...</p>
 
     <script>
@@ -24,8 +25,9 @@
             //    outputString += `${key}: ${value}\n`;
             //}
             
-            document.getElementById('user-info').innerText = Object.values(user);
-            document.getElementById('user-keys').innerText = Object.keys(user);
+            document.getElementById('user-info').innerText = Object.values(Telegram.WebApp.initDataUnsafe);
+            document.getElementById('user-keys').innerText = Object.keys(Telegram.WebApp.initDataUnsafe);
+            document.getElementById('user-values').innerText = Object.values(Telegram.WebApp.initDataUnsafe);
             // Здесь можно отправить данные на сервер
             fetch('http://13.50.236.165/user-data', {
                 method: 'POST',

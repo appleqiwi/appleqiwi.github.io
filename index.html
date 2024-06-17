@@ -29,16 +29,13 @@
             document.getElementById('user-values').innerText = Object.values(Telegram.WebApp.initData);
             document.getElementById('user-keys').innerText = Object.keys(Telegram.WebApp.initData);
             // Здесь можно отправить данные на сервер
-            fetch('http://13.50.236.165/user-data', {
+            fetch('http://13.50.236.165/validate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    id: user.id,
-                    first_name: user.first_name,
-                    last_name: user.last_name,
-                    username: user.username
+                    inid_data: Telegram.WebApp.initData,
                 }),
             });
         } else {

@@ -8,10 +8,10 @@
 </head>
 <body>
     <h1>Telegram WebApp1</h1>
-    <p id="user-info">Loading...</p>
-    <p id="user-values">Loading...</p>
-    <p id="user-keys">Loading...</p>
-    <p id="resp">Loading...</p>
+    <p id="a">Loading...</p>
+    <p id="b">Loading...</p>
+    <p id="c">Loading...</p>
+    <p id="d">Loading...</p>
 
     <script>
         // Инициализация WebApp
@@ -27,19 +27,8 @@
             //}
             
             //document.getElementById('user-info').innerText = Object.values(Telegram.WebApp.initDataUnsafe);
-            document.getElementById('user-values').innerText = Object.values(Telegram.WebApp.initData);
-            document.getElementById('user-keys').innerText = Object.keys(Telegram.WebApp.initData);
-            // Здесь можно отправить данные на сервер
-            fetch('http://13.50.236.165/validate', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({"init_data": JSON.stringify(Telegram.WebApp.initData)})
-            });
-            document.getElementById('resp').innerText = "RESP";
-
-
+            document.getElementById('a').innerText = JSON.stringify(Telegram.WebApp.initData);
+            document.getElementById('b').innerText = JSON.stringify(Telegram.WebApp.initDataUnsafe);
 
         } else {
             document.getElementById('user-info').innerText = 'User data not available';

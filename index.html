@@ -7,7 +7,7 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
-    <h1>Telegram WebApp66</h1>
+    <h1>Telegram WebApp666</h1>
     <p id="a">Loading...</p>
     <p id="b">Loading...</p>
     <p id="c">Loading...</p>
@@ -16,7 +16,6 @@
     <script>
         // Инициализация WebApp
         Telegram.WebApp.ready();
-        localStorage.setItem("test", "hyest")
         // Получение данных пользователя
         const user = Telegram.WebApp.initDataUnsafe.user;
         if (user) {
@@ -27,7 +26,7 @@
             //}
             
             //document.getElementById('user-info').innerText = Object.values(Telegram.WebApp.initDataUnsafe);
-            document.getElementById('a').innerText = window.frames.top.document.referrer
+            document.getElementById('a').innerText = localStorage.getItem("test")
             document.getElementById('b').innerText = JSON.stringify(Telegram.WebApp.initData)
             document.getElementById('c').innerText = JSON.stringify(Telegram.WebApp.initDataUnsafe);
 
